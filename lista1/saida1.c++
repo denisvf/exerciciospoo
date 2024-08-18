@@ -3,12 +3,8 @@
 
 using namespace std;
 
-void desenhaTracos(int quantidade)
-{
-    for (int i = 0; i < quantidade; i++){
-        cout << "-";
-    }
-    cout << endl;
+void desenhaTracos(int quantidade){
+    cout << setfill('-') << setw(quantidade) << "" << endl;
 }
 
 void desenhaLinha(int quantidade)
